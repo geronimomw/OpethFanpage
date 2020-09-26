@@ -1,0 +1,87 @@
+@font-face{
+    font-family: old-london;
+    src: url(./third-party/fonts/OldLondon.ttf);
+}
+.container-fluid{
+    background-color: #23272a;
+    color: white;
+    padding: 0px !important;
+}
+.section{
+    height: 100vh;
+}
+#OpethLogo{
+    height: 500px;
+    padding: 2rem 4rem;
+}
+#InCaudaVenenum{
+    height: 100vh;
+    background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.tourSection{
+    height: 100vh;
+    background-image: url(../../public/img/Sorceress.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.newsletter{
+    height: 100vh;
+    background-image: url(../../public/img/StillLife.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.button-text{
+    text-decoration: none;
+    color:white;
+}
+.button-text:hover{
+    text-decoration: none;
+    color: black;
+}
+.btn-outline-light:hover{
+    text-decoration: black;
+}
+/*.section-1-tour{
+    
+}*/
+.separator{
+    padding-left: 20rem;
+}
+body {
+    font-family: old-london;
+    min-height: 100%;
+    margin: 0;
+    padding: 0;
+    /*background-color: #23272a;*/
+    
+}
+html {
+    height: 100%;
+    overflow-x: hidden; 
+    overflow-y: scroll; 
+    scroll-behavior: smooth;
+}
+
+.cells-container{
+    margin: 200px;
+}
+.table-dark{
+    border-radius: 32px;
+    border-color: transparent;
+    background-color: rgba(35, 39, 42, 0.5);
+}
+.newsletter-form{
+    background-color:  rgba(35, 39, 42, 0.5);
+    border-radius: 16px;
+    padding: 5rem 0rem;
+}
+.social-icon{
+    height: 3rem;
+    margin: 0.3rem;
+}
+#social-buttons{
+    padding: 5rem;
+}
